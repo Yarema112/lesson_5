@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans&family=Redressed&family=Syne+Tactile&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "Syne Tactile", cursive;
+	background-color: rgb(230, 59, 59);
+}
+
+.textfont {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 5px;
+	color: yellow;
+	text-align: right;
+	text-decoration: line-through;
+	text-shadow: -3px 2px 1px #000;
+	text-transform: capitalize;
+	line-height: 1.5;
+	letter-spacing: 5px;
+	white-space: 5px;
+	word-spacing: 10px;
+}
+
+.text.padding {
+	background-color: green;
+	font-size: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/* padding: 5px 10px; */
+}
+
+.text.margin {
+	background-color: green;
+	font-size: 7px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+.text.width {
+	background-color: rgba(255, 255, 0, 0.562);
+	font-family: "Festive", cursive;
+	font-size: 7px;
+	/* width: 250px; */
+	max-width: 250px;
+	margin-bottom: 5px;
+}
+
+.text.height {
+	background-color: yellow;
+	font-family: "Festive", cursive;
+	font-size: 7px;
+	/* height: 25px; */
+	/* max-height: 25px; */
+	min-height: 25px;
+}
+.text.overflow {
+	background-color: rgb(8, 8, 228);
+	font-family: "Open Sans", sans-serif;
+
+	margin-top: 7px;
+	max-height: 25px;
+	overflow: hidden;
+	overflow: auto;
+}
+.text.experement {
+	background-color: #ff8040;
+	font-family: "Redressed", cursive;
+	line-height: 0.8;
+	text-align: center;
+	margin: 7px 0 0 auto;
+	max-height: 150px;
+	max-width: 150px;
+	padding: 10px 10px 10px 10px;
+	overflow: hidden;
+	overflow: auto;
+}
+
+.block{
+	background-color: yellow;
+	max-width: 450px;
+	text-align: center;
+}
+.span{
+	background-color: green;
+	display: inline-block; 
+	
+}
